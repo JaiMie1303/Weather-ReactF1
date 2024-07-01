@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./assets/image/stormy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    min-height: 440px;
+    color: white;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2), 4px 6px 20px rgba(0,0,0,0.19);
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        width:90%
+    }
+}
